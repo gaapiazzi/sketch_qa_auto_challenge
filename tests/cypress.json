@@ -1,0 +1,12 @@
+{
+  "baseUrl": "https://www.sketch.com",
+  "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+    "reportDir": "cypress/report",
+    "charts": true
+  },
+  "env": {
+    "USER_EMAIL": "",
+    "USER_PASSWORD": ""
+  }
+}

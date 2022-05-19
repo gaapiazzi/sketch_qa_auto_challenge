@@ -1,0 +1,22 @@
+{
+  "name": "test-frontend",
+  "version": "1.0.0",
+  "description": "SKETCH - Test cypress QA auto challenge UI",
+  "include": [
+    "integration/**/*.spec.js"
+  ],
+  "testFiles": "**/*.spec.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:update": "cypress cache clear && npm install && cypress install"
+  },
+  "author": "GaPiazzi",
+  "devDependencies": {
+    "cypress": "^9.6.1",
+    "cypress-mochawesome-reporter": "^3.1.0"
+  },
+  "dependencies": {}
+}
